@@ -6,13 +6,13 @@ This repository provides a systematic framework for implementing and comparing v
 
 The project is organized into modular components to ensure reproducible benchmarking:
 
-* **/representations**: Contains the core quantum circuit logic for each model:
+* **representations**: Contains the core quantum circuit logic for each model:
     * `frqi.py`: Continuous amplitude/angle encoding.
     * `neqr.py`: Discrete basis state/binary encoding.
     * `qutrit_representations.py`: Ternary-based encoding using 3-level systems.
-* **/benchmarking**: Scripts to automate the calculation of gate counts, CNOT depth, and Fidelity.
-* **/utils**: Classical-to-Quantum Interface (C2QI) tools for image downsampling ($16 \times 16$, $32 \times 32$) and pixel normalization.
-* **/results**: Storage for output matrices, comparative CSV tables, and visualization plots (MSE vs. Shots).
+* **benchmarking**: Scripts to automate the calculation of gate counts, CNOT depth, and Fidelity.
+* **utils**: Classical-to-Quantum Interface (C2QI) tools for image downsampling ($16 \times 16$, $32 \times 32$) and pixel normalization.
+* **results**: Storage for output matrices, comparative CSV tables, and visualization plots (MSE vs. Shots).
 
 ---
 
